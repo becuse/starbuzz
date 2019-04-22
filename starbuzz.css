@@ -12,19 +12,52 @@ body {
 
 }
 
+
+
+#coupon:hover{
+left: 0px;
+
+}
+
+#award{
+position: absolute;
+top:30px;
+left:365px;
+
+}
+
+#coupon
+{
+position: fixed;
+top:350px;
+left:-90px;
+transition: all ls linear;
+
+}
+
+#coupon img{
+
+  border:none;
+}
+
 #tableRow
 {
 display: table-row;
 
 }
 
-#header {
+header {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
 }
 
-#drinks
+header img#headerSlogan{
+
+  float: right;
+}
+
+section#drinks
 {
   display:table-cell;
   background: #efe5d0;
@@ -36,7 +69,7 @@ display: table-row;
 }
 
 
-#main {
+section#main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -48,7 +81,7 @@ display: table-row;
 
 }
 
-#sidebar {
+aside {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -60,7 +93,7 @@ display: table-row;
   
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
