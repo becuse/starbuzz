@@ -112,17 +112,21 @@ arr[0]=3
 var person=['小钱钱','思敏','我','花花']
 var didian=['超市','广场','太空','日本']
 var take=['吃炸鸡','订外卖','坐大巴','等公交']
-function foo(aa){
-  console.log(aa)
+function foo(arr){
+  i = Math.floor(Math.random()*arr.length)
+  console.log(arr[i])
 }
+foo(person)
+foo(didian)
+foo(take)
+document.write()
 
 
-
-var i,d,t;
-d=Math.floor(Math.random()*arr.length)
-i=Math.floor(Math.random()*arr.length)
-t=Math.floor(Math.random()*arr.length)
-document.write(person[i]+'半夜去了'+didian[d]+take[t])
+//var i,d,t;
+//d=Math.floor(Math.random()*arr.length)
+//i=Math.floor(Math.random()*arr.length)
+//t=Math.floor(Math.random()*arr.length)
+//document.write(person[i]+'半夜去了'+didian[d]+take[t])
 
 
 
